@@ -1,5 +1,4 @@
 import { Project, ProjectStatus } from "../models/project";
-import { capitalizeFirstLetter } from "../util/capitalize";
 import { State } from "./base";
 
 export class ProjectState extends State<Project> {
